@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+
+  web:
+    image: maven:3.3-jdk-8
+    command: mvn spring-boot:run
+    volumes:
+      - .:/usr/src/mymaven
+    working_dir: /usr/src/mymaven
+    ports:
+      - "8081:8081"

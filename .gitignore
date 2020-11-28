@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -21,3 +22,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+=======
+/target/
+.settings/
+.classpath
+.project
+>>>>>>> edac96bfdc740d8b3321e3399ea2118aa2929259
