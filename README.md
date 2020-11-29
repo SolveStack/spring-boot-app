@@ -2,8 +2,10 @@
 
 ## Docker
 
-`docker run --rm --name web -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.3-jdk-8 mvn clean install`
-`docker-compose up`
+```bash
+docker run --rm --name web -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.3-jdk-8 mvn clean install
+docker-compose up
+```
 
 ## Locally
 
